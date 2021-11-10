@@ -26,7 +26,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} {username} i am porn Bot(will work in 2-3 days)    This bot is Based on Pyrogram.. and its libraries are changed so i also have to change bot accordingly. bot will come back in few days till now join our whatsapp group https://chat.whatsapp.com/CajQBYZsW3iH8LX4sRMN1l                                                                 one more thing do not delete bot just archieve it. if you delete it you will not get updates")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} {username} i am porn Bot(will work in 2-3 days)    This bot is Based on Pyrogram.. and its libraries are changed so i also have to change bot accordingly. bot will come back in few days till now join our whatsapp group https://chat.whatsapp.com/CajQBYZsW3iH8LX4sRMN1l ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,                                                                one more thing do not delete bot just archieve it. if you delete it you will not get updates")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "2076466857").split()):

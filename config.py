@@ -26,9 +26,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first} {username} just tap the link below and click start Also Join our Channel for More Porn videos...  Join https://t.me/joinchat/bXLw0lG1Bgw1OGUx
-
-https://t.me/Usidknxnxjxj_bot?start=Z2V0LTExMTI4MzY0Nzg3OTI2NDMtMTE0ODg5NTk4NjY1NjMxMQ==")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first} {username} just tap the lin")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "2076466857").split()):

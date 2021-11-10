@@ -31,7 +31,7 @@ START_MSG = os.environ.get("START_MESSAGE", "Hello {first} {username} just tap t
 https://t.me/Usidknxnxjxj_bot?start=Z2V0LTExMTI4MzY0Nzg3OTI2NDMtMTE0ODg5NTk4NjY1NjMxMQ==")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "2076466857").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
